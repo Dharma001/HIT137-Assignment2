@@ -1,8 +1,6 @@
 from file_handler import read_file, write_file
 from encryption import encrypt
 from decryption import decrypt
-from verify import verify
-
 
 def main():
     """
@@ -26,12 +24,6 @@ def main():
     # Decrypt the encrypted text
     decrypted = decrypt(encrypted, shift1, shift2)
     write_file("Q1/decrypted_text.txt", decrypted)
-
-    # Verify if decryption matches original
-    if verify(text, decrypted):
-        print("Decryption successful")
-    else:
-        print("Decryption failed")
 
 
 if __name__ == "__main__":

@@ -1,8 +1,10 @@
-# Welcome to HIT137 Assignment 2! 🎉
+Group 4 CAS
+Group Members :
+- Pratik Marasini(S400934)
+- WAHIM ALAM (S398923)
+- DHARMA BUDHATHOKI (S395172)
 
-Hey there! This is our project for HIT137 Assignment 2. We've created two Python programs that handle text encryption/decryption and mathematical expression parsing. Let's dive in!
 
-## What This Project Does
 
 ### Q1: Text Encryption & Decryption
 
@@ -21,18 +23,11 @@ Hey there! This is our project for HIT137 Assignment 2. We've created two Python
 - Evaluates the expressions
 - Handles errors gracefully
 
-## Quick Setup
 
-### Get the Code
 
-```bash
-git clone https://github.com/Dharma001/HIT137-Assignment2.git
+ https://github.com/Dharma001/HIT137-Assignment2.git
 cd HIT137-Assignment2
-```
 
-### What You Need
-
-- Python 3.x (that's it!)
 
 ## Project Files
 
@@ -56,55 +51,3 @@ HIT137-Assignment2/
 └── github_link.txt              # Repository link
 ```
 
-## How to Run
-
-### Q1: Encryption/Decryption
-
-```bash
-cd Q1
-python main.py
-```
-
-Enter two numbers when prompted - these are your encryption keys!
-
-### Q2: Expression Parser
-
-```bash
-cd Q2
-python main.py
-```
-
-Check `output.txt` for the parsed results.
-
-## What You'll See
-
-**Q1**: Your text gets scrambled, then unscrambled, with a success message.
-
-**Q2**: For each math problem:
-
-```
-Input: 2 + 3 * 4
-Tree: (+ 2 (* 3 4))
-Tokens: [NUM:2] [OP:+] [NUM:3] [OP:*] [NUM:4] [END]
-Result: 14
-```
-
-## Cool Features
-
-- **Q1**: Position-based encryption (not just simple shifts!)
-- **Q2**: Handles complex expressions, unary operators, and nested parentheses
-
-## Need Help?
-
-- Make sure you're in the right folder
-- Use whole numbers for Q1 shifts
-- Check `python --version` if things don't work
-- Error messages are usually helpful!
-
-## Fun Notes
-
-- Q1's encryption adapts based on where letters appear in the text
-- Q2 can handle tricky cases like --5 or -(3+4)
-- Both programs use clean Python code with no extra libraries
-
-Enjoy exploring the code! If you have questions, feel free to ask. 🚀

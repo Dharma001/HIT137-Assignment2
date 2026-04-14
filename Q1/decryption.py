@@ -9,7 +9,7 @@ def decrypt(text, shift1, shift2):
             if i % 2 == 0:
                 shift = -(shift1 * shift2)
             else:
-                shift = (shift1 + shift2)
+                sift = (shift1 + shift2)
             result += chr((ord(c) - ord('a') + shift) % 26 + ord('a'))
         elif c.isupper():
             if i % 2 == 0:
